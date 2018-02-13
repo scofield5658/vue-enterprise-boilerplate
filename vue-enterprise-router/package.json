@@ -1,0 +1,32 @@
+{
+  "name": "vue-enterprise-router",
+  "version": "1.0.2",
+  "description": "An Enterprise-based Vue.js Project's Router Management",
+  "author": "guozhi <guozhi@finogeeks.com>",
+  "main": "./index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://git.finogeeks.club/guozhi/vue-enterprise-router"
+  },
+  "publishConfig": {
+    "registry": "https://npm.finogeeks.club"
+  },
+  "dependencies": {
+    "vue-router": "^3.0.1",
+    "vue-enterprise-login": "1.0.4",
+    "vue-enterprise-home": "1.0.7"
+  },
+  "devDependencies": {
+    "vue-enterprise-dependency-finogeeks": "1.0.2"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

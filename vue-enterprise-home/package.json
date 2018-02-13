@@ -1,0 +1,61 @@
+{
+  "name": "vue-enterprise-home",
+  "version": "1.0.7",
+  "description": "An Enterprise-based Vue.js Project",
+  "author": "guozhi <guozhi@finogeeks.com>",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://git.finogeeks.club/guozhi/vue-enterprise-home"
+  },
+  "publishConfig": {
+    "registry": "https://npm.finogeeks.club"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "build": "webpack --progress --hide-modules"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babili-webpack-plugin": "^0.1.2",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "file-loader": "^1.1.4",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "url-loader": "^0.5.9",
+    "vue-awesome": "^2.3.3",
+    "vue-enterprise-dependency-finogeeks": "1.0.2",
+    "vue-loader": "^13.0.5",
+    "vue-observe-visibility": "^0.3.1",
+    "vue-resize": "^0.4.2",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-enterprise-store",
+  "version": "1.0.4",
+  "description": "An Enterprise-based Vue.js Project's State Management",
+  "author": "guozhi <guozhi@finogeeks.com>",
+  "main": "./src/main.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://git.finogeeks.club/guozhi/vue-enterprise-store"
+  },
+  "publishConfig": {
+    "registry": "https://npm.finogeeks.club"
+  },
+  "devDependencies": {
+    "vue-enterprise-dependency-finogeeks": "1.0.2"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

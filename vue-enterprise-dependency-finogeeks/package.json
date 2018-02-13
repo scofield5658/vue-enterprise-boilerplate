@@ -1,0 +1,29 @@
+{
+  "name": "vue-enterprise-dependency-finogeeks",
+  "version": "1.0.2",
+  "description": "An Enterprise-based common dependencies for Vue.js Project",
+  "author": "guozhi <guozhi@finogeeks.com>",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://git.finogeeks.club/guozhi/vue-enterprise-dependency-finogeeks"
+  },
+  "publishConfig": {
+    "registry": "https://npm.finogeeks.club"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "mint-ui": "^2.2.13",
+    "vue": "^2.5.2",
+    "vuex": "^3.0.1"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
